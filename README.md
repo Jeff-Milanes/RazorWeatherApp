@@ -26,4 +26,6 @@ The RazorERP Weather App provides a 5-day weather forecast based on the user's c
 
 ## App Screenshot
 
-![App Screenshot](path/to/screenshot.png)
+![Portrait](images/portrait.png)
+
+![Landscape](images/landscape.png)
