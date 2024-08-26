@@ -12,17 +12,15 @@ The RazorERP Weather App provides a 5-day weather forecast based on the user's c
 - **Hydrated Bloc**: For persisting and retrieving the last state, allowing offline access.
 - **Geolocator**: For obtaining the user's current location.
 
-## Features
-
-- Fetches and displays weather forecasts for the next 5 days based on the user's current location.
-- Uses state management with `bloc` and `hydrated_bloc` to manage and persist state.
-- Implements data deserialization with `built_value`.
-- Handles API requests with `dio`.
-
 ## Testing
 
 - **Unit Tests**: Includes tests for business logic and data models.
 - **Widget Tests**: Ensures the UI displays weather forecasts correctly.
+
+## Notes
+
+- Did include the generated files (e.g. `.g.dart`) for this project, this should be under `.gitignore`.
+- Did include the API key on this project for testing purposes it should be under `.env` file and not commited to the repo.
 
 ## App Screenshot
 

@@ -1,7 +1,6 @@
 import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
-
 class WeatherBlocObserver extends BlocObserver {
   const WeatherBlocObserver();
 
